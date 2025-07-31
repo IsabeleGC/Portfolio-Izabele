@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6b58b0;
+        filter: url(#drop-shadow-7);
+      }
+
+      .cls-2 {
+        fill: #fc7300;
+        filter: url(#drop-shadow-6);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="254.66" y1="353.78" x2="257.56" y2="353.78" gradientUnits="userSpaceOnUse">
+      <stop offset=".07" stop-color="#6b58b0"/>
+      <stop offset=".15" stop-color="#6d58ac"/>
+      <stop offset=".2" stop-color="#755aa2"/>
+      <stop offset=".26" stop-color="#835c92"/>
+      <stop offset=".3" stop-color="#97607a"/>
+      <stop offset=".35" stop-color="#b0645b"/>
+      <stop offset=".4" stop-color="#cf6a36"/>
+      <stop offset=".44" stop-color="#f3710a"/>
+      <stop offset=".45" stop-color="#fc7300"/>
+      <stop offset=".48" stop-color="#fa780b"/>
+      <stop offset=".53" stop-color="#f4862a"/>
+      <stop offset=".61" stop-color="#ec9d5b"/>
+      <stop offset=".69" stop-color="#e1bda0"/>
+      <stop offset=".71" stop-color="#dec6b2"/>
+      <stop offset=".8" stop-color="#9782b0"/>
+      <stop offset=".86" stop-color="#6b58b0"/>
+    </linearGradient>
+    <filter id="drop-shadow-6" x="399.81" y="201.88" width="480.48" height="756.96" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-7" x="261.09" y="202.6" width="484.32" height="755.52" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <path class="cls-3" d="M256.11,355.28c1.93,0,1.93-3,0-3s-1.93,3,0,3h0Z"/>
+    <path class="cls-2" d="M408.02,833.16c64.64-173.18,129.28-346.36,193.93-519.53,85.39-34.52,170.78-69.03,256.18-103.55-86.12,159.59-172.23,319.18-258.35,478.78,85.94,47.61,171.89,95.23,257.83,142.84-65.67,35-131.33,70.01-197,105.01l-252.58-103.55Z"/>
+    <path class="cls-1" d="M723.32,315.96c-64.25,171.89-128.5,343.78-192.75,515.67-87.16,34.8-174.32,69.61-261.48,104.41,87.17-159.02,174.35-318.04,261.52-477.05-87.17-47.59-174.35-95.19-261.52-142.78,65.84-35.16,131.69-70.31,197.53-105.47l256.69,105.22Z"/>
+  </g>
+</svg>
